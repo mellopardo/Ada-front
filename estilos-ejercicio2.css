@@ -2,3 +2,32 @@
     border: 1px solid black;
     padding: 10px;
 }
+.centrado{
+    text-align: center;
+}
+.display{
+    display: inline-block;
+    width: 33%;
+    border: 1px solid black;
+    text-align: left;
+    padding: 15px
+}
+.columna{
+    display: inline-block;
+    width: calc(50% - 2px);/* para poner las columnas en la misma la linea*/
+    vertical-align: top;
+    border: 1px solid black;
+    box-sizing: border-box;
+
+}
+.border-radius{
+    border:5px solid palevioletred;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px; 
+    background-color: pink;
+    text-align: center;
+    line-height: 150px;
+    font-size: 40px;
+    color: black;
+}
