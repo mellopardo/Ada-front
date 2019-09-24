@@ -1,0 +1,42 @@
+.fondo{
+    width: 100vw;
+    height:100vh;
+    background: url('https://files.slack.com/files-pri/T638A9WSY-FNMMH6CER/fondo2.jpg') center no-repeat;
+    background-size:100%;
+    margin: 0px;
+}
+body{
+    margin: 0%;
+}
+.link-button{
+    border: 1px solid;
+    padding:5px;
+    line-height: 35px;
+}
+.link-button:active{
+    color: green;
+}
+.link-button:visited{
+    color: red;
+}
+
+.link-button:hover{
+    background-color: #333;
+    color: white;
+    cursor: help;
+}
+​
+li:first-child{
+    background-color: teal;
+}
+li:last-child{
+    background-color:#7d4d57;
+}
+​
+li:hover + li {
+    background-color: gray;
+} 
+​
+li:hover ~ li {
+    background-color: gray;
+} 
